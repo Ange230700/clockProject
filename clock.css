@@ -128,7 +128,7 @@ p {
   --_abg: rgb(255, 140, 5);
   --_ah: 40cqi;
   --_aw: 1cqi;
-  animation: turn 60s linear infinite;
+  animation: turn 60s steps(60, end) infinite;
   animation-delay: var(--_ds, 0s);
 }
 
@@ -136,7 +136,7 @@ p {
   --_abg: #333;
   --_ah: 35cqi;
   --_aw: 2.5cqi;
-  animation: turn 3600s steps(60, end) linear infinite;
+  animation: turn 3600s steps(60, end) infinite;
   animation-delay: var(--_dm, 0s);
 }
 
